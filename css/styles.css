@@ -10,9 +10,9 @@ h2,
   margin-right: auto;
 }
 
-html {
+/* html {
   background-color: rosybrown;
-}
+} */
 
 .container,
 .form-group,
@@ -108,4 +108,55 @@ footer {
 .expResult3 {
   display: none;
   font-size: large;
+}
+
+#borderPreSelection {
+  background-image: url(/img/stockborderpre.jpg);
+  font-size: larger;
+  color: red;
+  border: 5px solid gold;
+}
+
+#centerPreSelection {
+  background-image: url(/img/stockbackgroundpre.jpg);
+  font-size: larger;
+  color: red;
+  border: 5px solid gold;
+}
+
+h2 {
+  font-size: larger;
+  color: red;
+  border: 5px solid gold;
+}
+
+.choiceCenter {
+  color: red;
+  border: 5px solid gold;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#centerPreSelection,
+#borderPreSelection {
+  display: none;
+}
+
+#borderPostSelection {
+  background-image: url(/img/stockborderpost.jpg);
+  font-size: larger;
+  color: red;
+  border: 5px solid gold;
+}
+
+#javaProgram,
+#goProgram,
+#pythonProgram {
+  background-image: url(/img/stockbackgroundpost.jpg);
+  font-size: larger;
+  color: whitesmoke;
+  border: 5px solid gold;
 }
