@@ -54,7 +54,16 @@ $(document).ready(function () {
   ///////////////////////////////////////
   
     if (userSpeed === 'slow') {
-      $('')
+      $('#javaProgram').show();
+      $('#pythonProgram, #goProgram').hide();
+    
+    } else if (userSpeed === 'medium') {
+      $('#pythonProgram').show();
+      $('#javaProgram, #goProgram').hide();
+    
+    } else if (userSpeed === 'fast') {
+      $('#goProgram').show();
+      $('#javaProgram, #pythonProgram').hide();
     }
 
     $(".userName").text(userName);
