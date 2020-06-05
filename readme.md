@@ -6,6 +6,8 @@
 
 ## By answering a few simple questions the web shall decide your fate should you pursue a career as a programmer
 
+### https://zentraxius.github.io/Week2Proj/index.html
+
 ## Setup/Installation Requirements
 
 1. From github ( https://github.com/Zentraxius ) navigate to "Repositories or simply click here -> https://github.com/Zentraxius/Week2Proj

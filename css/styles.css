@@ -111,14 +111,14 @@ footer {
 }
 
 #borderPreSelection {
-  background-image: url(/img/stockborderpre.jpg);
+  background-image: url(../img/stockborderpre.jpg);
   font-size: larger;
   color: red;
   border: 5px solid gold;
 }
 
 #centerPreSelection {
-  background-image: url(/img/stockbackgroundpre.jpg);
+  background-image: url(../img/stockbackgroundpre.jpg);
   font-size: larger;
   color: red;
   border: 5px solid gold;
@@ -141,7 +141,7 @@ h2 {
 }
 
 #borderPostSelection {
-  background-image: url(/img/stockborderpost.jpg);
+  background-image: url(../img/stockborderpost.jpg);
   font-size: larger;
   color: red;
   border: 5px solid gold;
@@ -151,7 +151,7 @@ h2 {
 #javaProgram,
 #goProgram,
 #pythonProgram {
-  background-image: url(/img/stockbackgroundpost.jpg);
+  background-image: url(../img/stockbackgroundpost.jpg);
   font-size: larger;
   color: whitesmoke;
   border: 5px solid gold;
