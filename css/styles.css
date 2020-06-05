@@ -1,0 +1,72 @@
+h1,
+h2,
+.form-group {
+  text-align: center;
+}
+
+.form-group {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html {
+  background-color: rosybrown;
+}
+
+.container,
+.form-group,
+body {
+  background-color: rosybrown;
+}
+
+#userGender,
+label,
+select,
+.container,
+body {
+  text-align: center;
+}
+
+.redacted span {
+  position: relative;
+  white-space: pre;
+}
+.redacted span:after {
+  background: black;
+  border-radius: 0.1em;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.35);
+  content: " ";
+  width: 100%;
+  height: 1.2em;
+  left: 0;
+  position: absolute;
+  transform: skewY(-5deg) rotate(5deg);
+}
+
+.javaImg,
+.pythonImg,
+.goImg {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  border: 5px groove black;
+}
+
+#javaProgram {
+  border: 3px groove black;
+  display: none;
+}
+
+#pythonProgram {
+  border: 3px groove black;
+  display: none;
+}
+
+#goProgram {
+  border: 3px groove black;
+  display: none;
+}

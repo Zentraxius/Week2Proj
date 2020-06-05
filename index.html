@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <title>Document</title> -->
+  <title>What Programming Language Is Right For Me?</title>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.5.1.js"></script>
@@ -12,7 +12,151 @@
 </head>
 
 <body>
+  <div class="container">
+    <h1>What Programming Language Is Right For Me?</h1>
+    <h2>Today the web decides your fate.</h2>
+  </div>
+  <form id=questions>
 
+    <div class="form-group">
+      <label for="name">Please input your name for judgement.</label>
+      <input type="text" id="userName" class="form-control">
+    </div>
+
+    <div class="form-group">
+      <label for="age">Please input your age for reference.</label>
+      <input type="text" id="userAge" class="form-control">
+    </div>
+
+    <label for="gender"></label>
+    <select id="userGender">
+      <option value="female">I am Female</option>
+      <option value="male">I am Male</option>
+      <option value="other">I am nonbinary</option>
+    </select>
+
+    <br>
+    <br>
+
+    <label for="userSpeedQ">How fast must you go?</label>
+
+    <div class="radio">
+      <label for="userSpeed" class="redacted">
+        <input type="radio" name="user" value="fast">
+        Father I crave <span>maximum</span> speed.
+      </label>
+    </div>
+
+    <div class="radio">
+      <label for="userSpeed">
+        <input type="radio" name="user" value="medium">
+        Sometimes I go fast
+      </label>
+    </div>
+
+    <div class="radio">
+      <label for="userSpeed">
+        <input type="radio" name="user" value="slow">
+        I don't feel like going fast at all
+      </label>
+    </div>
+
+    <label for='userExpQ'>Have you programmed before?</label>
+
+    <div class="radio">
+      <label for="userExp">
+        <input type="radio" name="user" value="veteranExp">
+        I've been programming as long as I can remember
+      </label>
+    </div>
+
+    <div class="radio">
+      <label for="userExp">
+        <input type="radio" name="user" value="moderateExp">
+        I'm basically a junior developer.
+      </label>
+    </div>
+
+    <div class="radio">
+      <label for="userSpeed">
+        <input type="radio" name="user" value="noExp">
+        I've never done this before
+      </label>
+    </div>
+
+    <br>
+    <button type="submit" class="btn">CHOOSE! MY! FATE!</button>
+
+    </div>
+  </form>
+  <br>
+
+  <div id="response">
+    <p>Congratulations <span class="userName"></span>! The web of fates has decided that your programming language is going to <em>be</em>:</p>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4" id="javaProgram">
+      <h3>JavaScript!</h3>
+      <img class="javaImg" src="img/JavaScript.png">
+      <br>
+      <p>You are the embodiment of slow, in fact, more often than not, you are going to be moving backwards rather than forwards in a futile attempt to fix not only your bugs, but everyone elses too.
+      </p>
+
+      <p>Progress can wait until things stop burning. But here's the secret - it never stops burning. You have a garden hose against a volcano, and <strong>Krakatoa</strong> is,
+        at best, amused by your paltry efforts.
+      </p>
+    </div>
+
+    <div class="col-md-4" id="pythonProgram">
+      <h3>Python!</h3>
+      <img class="pythonImg" src="img/python.jpg">
+      <p>Sometimes, you just have to go really fast, other times, you lie in wait, like a predator awaiting its next prey to wander underneath it. You are a Python programmer, bugs are for the weak.
+      </p>
+
+      <p>With the sheer force of your will you push forward, and let those JavaScript
+        developers waste their time fixing bugs while you pave the way forward.</p>
+
+      <p>Also you're going to make alot of bugs(Thanks for keeping JavaScript
+        developers employed!) Don't forget - the jungle is an unforgiving mother,
+        if you fall behind the curve, you get eaten like everyone else.</p>
+    </div>
+
+    <div class="col-md-4" id="goProgram">
+      <h3>GO!</h3>
+      <img class="goImg" src="img/go.png">
+      <p>You have to be ahead of the game. You <em>need</em> to go <strong>NOW</strong> speed is your name and programming is your game. You're always on the GO, mobile programming, laptop
+        programming, you talk to yourself in code and don't communicate well with lesser, non programming people.</p>
+
+      <p>The capabilities this brings you are unrivaled, the speed at which you program will be remembered for ages, your skill often balked at as an exaggeration, but those who know you,
+        know one thing for sure. Boy do you work fast</p>
+    </div>
+  </div>
+  <br>
+
+  <div class="outcome1">
+    <p>Beginning your legacy young, you face many challenges, but you will have enough time to not only gain experience, but to master your craft, an usher in a golden age of technology. It will be many years before anyone comes
+      along who is able to understand the true depths of your code, its complexity beyond humand minds for many years.</p>
+  </div>
+
+  <div class="outcome2">
+    <p>Beginning your legacy young, you pave the way forward for other females looking to gain entry into the tech industries around the world, your name will go down in history as one of the greatest, a revolutionary who changed the world, and you
+      will be the hero looked up to by women around the world for generations to come.</p>
+  </div>
+
+  <div class="outcome3">
+    <p>You don't have as much time to play around as these youngsters, so you're not going to make some fancy pantsy code with bells and whistles. What you are going to make, however,
+      will change the course of human history. Your coding skills will always be taken into question, and many will think you cheated off someone else, but those who know you will understand that you
+      are simply a superpower they cannot comprehend. Your legacy will live on, and your followers will be many.</p>
+  </div>
+
+  <div class="outcome4">
+    <p>Nobody could have expected it. In fact, even once presented with the truth, nobody believed it. Creating an entirely new language of code at your age? Women weren't even that prominent in the industry and out of no where, the one true
+      programming language that can do it all, created from home by <em>"some old lady"</em> shocked nations around the world. News reporters, celebrities, even presidents begged for the honor of simply speaking with you face to face. You are more
+      than a legend, to programmers, you are a god. </p>
+  </div>
+
+  <footer>While the fates have a strict no refunds policy, so long as your payment has not been collected by the boatman you are able to change your answers to try again.</footer>
 </body>
 
 </html>
