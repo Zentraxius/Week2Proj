@@ -70,3 +70,27 @@ footer {
   border: 3px groove black;
   display: none;
 }
+
+#response {
+  display: none;
+}
+
+.outcome1 {
+  display: none;
+  font-size: large;
+}
+
+.outcome2 {
+  display: none;
+  font-size: large;
+}
+
+.outcome3 {
+  display: none;
+  font-size: large;
+}
+
+.outcome4 {
+  display: none;
+  font-size: large;
+}
