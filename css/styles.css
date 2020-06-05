@@ -160,3 +160,14 @@ h2 {
   color: whitesmoke;
   border: 5px solid gold;
 }
+
+#eyesOfFate {
+  border-radius: 450px;
+  background: rgb(2, 0, 36);
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(227, 18, 26, 0.75672275746236) 43%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}

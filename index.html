@@ -16,78 +16,85 @@
     <h1>What Programming Language Is Right For Me?</h1>
     <h3>Today the web decides your fate.</h2>
   </div>
-  <form id=questions>
-
-    <div class="form-group">
-      <label for="name">Please input your name for judgement.</label>
-      <input type="text" id="userName" class="form-control">
+  <div class="row">
+    <div class="col-md-4" id="eyesOfFate">
+      <p></p>
     </div>
+    <div class="col-md-4">
+      <form id=questions>
 
-    <div class="form-group">
-      <label for="age">Please input your age for reference.</label>
-      <input type="text" id="userAge" class="form-control">
+        <div class="form-group">
+          <label for="name">Please input your name for judgement.</label>
+          <input type="text" id="userName" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label for="age">Please input your age for reference.</label>
+          <input type="text" id="userAge" class="form-control">
+        </div>
+
+        <label for="gender"></label>
+        <select id="userGender">
+          <option value="female">I am Female</option>
+          <option value="male">I am Male</option>
+          <option value="other">I am nonbinary</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label for="userSpeedQ">How fast must you go?</label>
+
+        <div class="radio">
+          <label for="userSpeed" class="redacted">
+            <input type="radio" name="userSpd" value="fast">
+            Father I crave <span>maximum</span> speed.
+          </label>
+        </div>
+
+        <div class="radio">
+          <label for="userSpeed">
+            <input type="radio" name="userSpd" value="medium">
+            Sometimes I go fast
+          </label>
+        </div>
+
+        <div class="radio">
+          <label for="userSpeed">
+            <input type="radio" name="userSpd" value="slow">
+            I don't feel like going fast at all
+          </label>
+        </div>
+
+        <label for='userExpQ'>Have you programmed before?</label>
+
+        <div class="radio">
+          <label for="userExp">
+            <input type="radio" name="userExperience" value="veteranExp">
+            I've been programming as long as I can remember
+          </label>
+        </div>
+
+        <div class="radio">
+          <label for="userExp">
+            <input type="radio" name="userExperience" value="moderateExp">
+            I'm basically a junior developer.
+          </label>
+        </div>
+
+        <div class="radio">
+          <label for="userSpeed">
+            <input type="radio" name="userExperience" value="noExp">
+            I've never done this before
+          </label>
+        </div>
+
+        <br>
+        <button type="submit" class="btn">CHOOSE! MY! FATE!</button>
     </div>
-
-    <label for="gender"></label>
-    <select id="userGender">
-      <option value="female">I am Female</option>
-      <option value="male">I am Male</option>
-      <option value="other">I am nonbinary</option>
-    </select>
-
-    <br>
-    <br>
-
-    <label for="userSpeedQ">How fast must you go?</label>
-
-    <div class="radio">
-      <label for="userSpeed" class="redacted">
-        <input type="radio" name="userSpd" value="fast">
-        Father I crave <span>maximum</span> speed.
-      </label>
-    </div>
-
-    <div class="radio">
-      <label for="userSpeed">
-        <input type="radio" name="userSpd" value="medium">
-        Sometimes I go fast
-      </label>
-    </div>
-
-    <div class="radio">
-      <label for="userSpeed">
-        <input type="radio" name="userSpd" value="slow">
-        I don't feel like going fast at all
-      </label>
-    </div>
-
-    <label for='userExpQ'>Have you programmed before?</label>
-
-    <div class="radio">
-      <label for="userExp">
-        <input type="radio" name="userExperience" value="veteranExp">
-        I've been programming as long as I can remember
-      </label>
-    </div>
-
-    <div class="radio">
-      <label for="userExp">
-        <input type="radio" name="userExperience" value="moderateExp">
-        I'm basically a junior developer.
-      </label>
-    </div>
-
-    <div class="radio">
-      <label for="userSpeed">
-        <input type="radio" name="userExperience" value="noExp">
-        I've never done this before
-      </label>
-    </div>
-
-    <br>
-    <button type="submit" class="btn">CHOOSE! MY! FATE!</button>
-
-    </div>
+    <div class="col-md-4" id="eyesOfFate"> </div>
+  </div>
+  </div>
   </form>
   <br>
 
