@@ -42,7 +42,7 @@ $(document).ready(function () {
   
     } else if (userExp === 'moderateExp') {
       $('.expResult2').show();
-      $('.expResult1, expResult3').hide();
+      $('.expResult1, .expResult3').hide();
     
     } else {
       $('.expResult3').show();
@@ -54,16 +54,16 @@ $(document).ready(function () {
   ///////////////////////////////////////
   
     if (userSpeed === 'slow') {
-      $('#javaProgram').show();
-      $('#pythonProgram, #goProgram').hide();
+      $('#javaProgram, #borderPostSelection, #response').show();
+      $('#pythonProgram, #goProgram, #centerPreSelection, #borderPreSelection').hide();
     
     } else if (userSpeed === 'medium') {
-      $('#pythonProgram').show();
-      $('#javaProgram, #goProgram').hide();
+      $('#pythonProgram, #borderPostSelection, #response').show();
+      $('#javaProgram, #goProgram, #borderPreSelection, #centerPreSelection').hide();
     
     } else if (userSpeed === 'fast') {
-      $('#goProgram').show();
-      $('#javaProgram, #pythonProgram').hide();
+      $('#goProgram, #borderPostSelection, #response').show();
+      $('#javaProgram, #pythonProgram, #borderPreSelection, #centerPreSelection').hide();
     }
 
     $(".userName").text(userName);

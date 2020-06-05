@@ -140,16 +140,12 @@ h2 {
   flex-flow: row wrap;
 }
 
-#centerPreSelection,
-#borderPreSelection {
-  display: none;
-}
-
 #borderPostSelection {
   background-image: url(/img/stockborderpost.jpg);
   font-size: larger;
   color: red;
   border: 5px solid gold;
+  display: none;
 }
 
 #javaProgram,
@@ -162,7 +158,7 @@ h2 {
 }
 
 #eyesOfFate {
-  border-radius: 450px;
+  border-radius: 100%;
   background: rgb(2, 0, 36);
   background: radial-gradient(
     circle,
@@ -170,4 +166,16 @@ h2 {
     rgba(227, 18, 26, 0.75672275746236) 43%,
     rgba(0, 212, 255, 1) 100%
   );
+}
+
+#response {
+  border: 5px solid gold;
+  color: aliceblue;
+  font-size: larger;
+}
+
+.expResult1,
+.expResult2,
+.expResult3 {
+  color: aliceblue;
 }
