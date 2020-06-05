@@ -8,9 +8,23 @@ $(document).ready(function () {
 
     if (userGender === "male" && userAge < 50) {
       $("#outcome1").show();
+      $("#outcome2, #outcome3, #outcome4").hide();
+
+    } else if (userGender === "male" && userAge > 50) {
+      $("#outcome3").show();
+      $("#outcome1, #outcome2, #outcome4").hide();
+
+    } else if ((userGender === 'female' || 'other') && userAge < 50) {
+      $("#outcome2").show();
+      $("#outcome1, #outcome3, #outcome4").hide();
+
+    } else if ((userGender === 'female' || 'other') && userAge > 50) {
+      $("#outcome4").show();
+      $("#outcome1, #outcome3, #outcome2").hide();
     }
 
-    $("#response").show();
+    if (userExp)
+
     $(".userName").text(userName);
     event.preventDefault();
   });
