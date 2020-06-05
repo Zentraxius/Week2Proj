@@ -6,7 +6,8 @@ $(document).ready(function () {
     let userSpeed = $("input:radio[name=userSpd]:checked").val();
     let userExp = $("input:radio[name=userExperience]:checked").val();
 
-    if (age) {
+    if (userGender === "male" && userAge < 50) {
+      $("#outcome1").show();
     }
 
     $("#response").show();

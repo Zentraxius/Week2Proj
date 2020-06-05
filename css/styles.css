@@ -75,22 +75,22 @@ footer {
   display: none;
 }
 
-.outcome1 {
+#outcome1 {
   display: none;
   font-size: large;
 }
 
-.outcome2 {
+#outcome2 {
   display: none;
   font-size: large;
 }
 
-.outcome3 {
+#outcome3 {
   display: none;
   font-size: large;
 }
 
-.outcome4 {
+#outcome4 {
   display: none;
   font-size: large;
 }
