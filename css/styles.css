@@ -16,10 +16,6 @@ body {
   background-color: rgb(139, 133, 133);
 }
 
-#userGender {
-  text-align: center;
-  background-color: blanchedalmond;
-}
 label,
 select,
 .container,
@@ -116,6 +112,7 @@ footer {
   font-size: larger;
   color: red;
   border: 5px solid gold;
+  border-radius: 10%;
 }
 
 #centerPreSelection {
@@ -123,6 +120,7 @@ footer {
   font-size: larger;
   color: red;
   border: 5px solid gold;
+  border-radius: 10%;
 }
 
 #questionsRow {
@@ -152,6 +150,8 @@ h2 {
   color: red;
   border: 5px solid gold;
   display: none;
+  border-radius: 10%;
+  background-size: 100%;
 }
 
 #javaProgram,
@@ -161,6 +161,7 @@ h2 {
   font-size: larger;
   color: whitesmoke;
   border: 5px solid gold;
+  border-radius: 10%;
 }
 
 #eyesOfFate {
@@ -171,12 +172,5 @@ h2 {
 
 #response {
   border: 5px solid gold;
-  color: aliceblue;
   font-size: larger;
-}
-
-.expResult1,
-.expResult2,
-.expResult3 {
-  color: aliceblue;
 }

@@ -70,3 +70,9 @@ $(document).ready(function () {
     event.preventDefault();
   });
 });
+
+$(document).ready(function() {
+  $('.pythonImg').click(function() {
+    alert('Dont tread on me!')
+  })
+})
