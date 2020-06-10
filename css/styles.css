@@ -26,6 +26,7 @@ select,
 body {
   text-align: center;
   background-color: rgb(139, 133, 133);
+  background-image: url(../img/paper.gif);
 }
 
 .redacted span {
@@ -163,7 +164,7 @@ h2 {
 }
 
 #eyesOfFate {
-  clip-path: ellipse(14% 49% at 48% 50%);
+  clip-path: ellipse(19% 49% at 48% 50%);
   background-image: url(../img/backeye.jpg);
   background-size: 100%;
 }
