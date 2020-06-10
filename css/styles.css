@@ -13,15 +13,19 @@ h2,
 .container,
 .form-group,
 body {
-  background-color: rosybrown;
+  background-color: rgb(139, 133, 133);
 }
 
-#userGender,
+#userGender {
+  text-align: center;
+  background-color: blanchedalmond;
+}
 label,
 select,
 .container,
 body {
   text-align: center;
+  background-color: rgb(139, 133, 133);
 }
 
 .redacted span {
@@ -120,6 +124,11 @@ footer {
   border: 5px solid gold;
 }
 
+#questionsRow {
+  border-style: dashed;
+  border-radius: 20%;
+}
+
 h2 {
   font-size: larger;
   color: red;
@@ -154,22 +163,10 @@ h2 {
 }
 
 #eyesOfFate {
-  mask-image: url(../img/background.svg);
-  background-image: url(../img/stockbackgroundpre.jpg);
-  /* background-size: cover; */
-  mask-size: cover;
+  clip-path: ellipse(14% 49% at 48% 50%);
+  background-image: url(../img/backeye.jpg);
+  background-size: 100%;
 }
-
-/* #eyesOfFate {
-  border-radius: 100%;
-  background: rgb(2, 0, 36);
-  background: radial-gradient(
-    circle,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(227, 18, 26, 0.75672275746236) 43%,
-    rgba(0, 212, 255, 1) 100%
-  );
-} */
 
 #response {
   border: 5px solid gold;
